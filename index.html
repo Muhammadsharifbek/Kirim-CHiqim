@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kirim chiqim</title>
+    <style>
+      .plus {
+        color: rgb(17, 214, 17);
+      }
+      .minus {
+        color: crimson;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <input type="text" id="ism" placeholder="Ismni kiriting" />
+    <input type="text" id="familiya" placeholder="Faamiliyani  kiriting" />
+    <button onclick="getValues()">ishga tushur</button>
+    <input type="text" />
+    <option value="select"></option>
+    <hr />
+
+    <table width="50%" border="1" cellspacing="0" id="result">
+      <thead>
+        <tr>
+          <th>N</th>
+          <th>Ism</th>
+          <th>Familiya</th>
+        </tr>
+      </thead> -->
+    <input type="text" id="title" placeholder="xarajat nomi" />
+    <input type="number" name="summa" placeholder="xarajat summasi" />
+    <select id="tur">
+      <option value="0">Kirim</option>
+      <option value="1">Chiqim</option>
+    </select>
+    <button onclick="add()">Saqlash</button>
+    <hr />
+    <table id="result" width="50%" border="1">
+      <thead>
+        <tr>
+          <th>Umumiy kirim</th>
+          <th>Umumiy chiqim</th>
+          <th>Farq</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+    <hr />
+    <table id="table" width="50%" border="1">
+      <thead>
+        <tr>
+          <th>N</th>
+          <th>Xarajat turi</th>
+          <th>Summa</th>
+          <th>xarajat nomi</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <script src="index.js"></script>
+  </body>
+</html>
